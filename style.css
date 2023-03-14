@@ -1,0 +1,127 @@
+/* Styling for the body element */
+body {
+  background-color: hsl(171, 19%, 52%);
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the page title */
+.page-title {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Styling for the container that holds the clocks */
+.clocks-container {
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Styling for the analog clock */
+.analog-clock {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-right: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+/* Styling for the clock face */
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Styling for the clock hands */
+.hour-hand,
+.minute-hand,
+.second-hand {
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0% 50%;
+}
+
+.hour-hand {
+  background-color: #000;
+  z-index: 3;
+}
+
+.minute-hand {
+  background-color: #000;
+  z-index: 2;
+}
+
+.second-hand {
+  background-color: #f00;
+  z-index: 1;
+}
+
+/* Styling for the center point of the clock */
+.center {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+}
+
+/* Styling for the digital clock */
+.digital-clock {
+  font-size: 3em;
+}
+
+/* Styling for the main container */
+.main-container {
+  margin-top: 50px;
+  justify-content: center;
+}
+
+/* Styling for the clock container */
+.clock-container {
+  margin-right: 50px;
+}
+
+/* Styling for the form that sets the alarm */
+.alarm-form {
+  margin-bottom: 20px;
+}
+
+/* Styling for the select elements in the form */
+select {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+/* Styling for the submit button */
+.submit-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+/* Styling for the container that displays the alarms */
+.set-alarm-container {
+  margin-top: 50px;
+}
+
+/* Styling for the day and date display */
+#day-date {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
